@@ -45,6 +45,12 @@ public class HashSetEx5 {
         System.out.println("A ∪ B = " + setHab);
         System.out.println("A - B = " + setCha);
 
+        /*
+         * 라이브러리 사용
+         */
+        setA.addAll(setB);  //합집합
+        setA.retainAll(setB); //교집합
+        setA.removeAll(setB); //차집합
     }
 
 }
